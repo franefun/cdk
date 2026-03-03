@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib/core';
-import { HelloCdkStack } from '../lib/hello-cdk-stack';
+import { HelloCdkStack } from '../lib/hello-cdk-put-L1';
 const id = process.env.VITE_ID;
 
 const app = new cdk.App();
